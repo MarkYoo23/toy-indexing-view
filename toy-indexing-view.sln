@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.API", "Toy.API\Toy.API.csproj", "{ECD6C014-4118-4532-BA59-8B5F45B73176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Executor", "Toy.Executor\Toy.Executor.csproj", "{36DBD131-A399-4834-8257-B43ED537CCC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Application", "Toy.Application\Toy.Application.csproj", "{40DAF398-4D1C-4D36-8C14-0DE6C5716D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Domain", "Toy.Domain\Toy.Domain.csproj", "{37D14DCE-8855-447F-B0A7-A72725CE8280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Infrastructure", "Toy.Infrastructure\Toy.Infrastructure.csproj", "{46135493-7A5B-4321-B1F6-7706B22AFB6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{AC2FF0E8-B9CE-41D3-9AEE-2BC5D9FAAD19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "commons", "commons", "{8273950A-1E6E-46E3-A067-C5E594BC1185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.API.Test", "Toy.API.Test\Toy.API.Test.csproj", "{805947B1-633F-436E-A430-DA9169725645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD6C014-4118-4532-BA59-8B5F45B73176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD6C014-4118-4532-BA59-8B5F45B73176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD6C014-4118-4532-BA59-8B5F45B73176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD6C014-4118-4532-BA59-8B5F45B73176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DBD131-A399-4834-8257-B43ED537CCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DBD131-A399-4834-8257-B43ED537CCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DBD131-A399-4834-8257-B43ED537CCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DBD131-A399-4834-8257-B43ED537CCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DAF398-4D1C-4D36-8C14-0DE6C5716D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DAF398-4D1C-4D36-8C14-0DE6C5716D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DAF398-4D1C-4D36-8C14-0DE6C5716D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DAF398-4D1C-4D36-8C14-0DE6C5716D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D14DCE-8855-447F-B0A7-A72725CE8280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D14DCE-8855-447F-B0A7-A72725CE8280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D14DCE-8855-447F-B0A7-A72725CE8280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D14DCE-8855-447F-B0A7-A72725CE8280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46135493-7A5B-4321-B1F6-7706B22AFB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46135493-7A5B-4321-B1F6-7706B22AFB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46135493-7A5B-4321-B1F6-7706B22AFB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46135493-7A5B-4321-B1F6-7706B22AFB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805947B1-633F-436E-A430-DA9169725645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805947B1-633F-436E-A430-DA9169725645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805947B1-633F-436E-A430-DA9169725645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805947B1-633F-436E-A430-DA9169725645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECD6C014-4118-4532-BA59-8B5F45B73176} = {AC2FF0E8-B9CE-41D3-9AEE-2BC5D9FAAD19}
+		{36DBD131-A399-4834-8257-B43ED537CCC1} = {AC2FF0E8-B9CE-41D3-9AEE-2BC5D9FAAD19}
+		{40DAF398-4D1C-4D36-8C14-0DE6C5716D06} = {8273950A-1E6E-46E3-A067-C5E594BC1185}
+		{37D14DCE-8855-447F-B0A7-A72725CE8280} = {8273950A-1E6E-46E3-A067-C5E594BC1185}
+		{46135493-7A5B-4321-B1F6-7706B22AFB6F} = {8273950A-1E6E-46E3-A067-C5E594BC1185}
+	EndGlobalSection
+EndGlobal
