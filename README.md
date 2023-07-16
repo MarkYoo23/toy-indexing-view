@@ -22,4 +22,4 @@
 ## 핵심 관점
 
 * Dto를 AutoMapper를 통해 쉽게 Parameter Class화 하였다.
-* CQRS 를 구현하여 
+* CQRS 를 구현하여 코드수를 줄이고 Query가 분리 됨으로서 조회를 단순화 하였다.
